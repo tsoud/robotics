@@ -1,0 +1,266 @@
+#VRML_SIM R2020b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation -0.11923599914180859 0.9504124402684623 0.2872263391327498 2.368693246061809
+  position 2.351446921513363 2.0386174248496967 -2.1606381674792394
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 2 2
+  floorAppearance PBRAppearance {
+    baseColor 0.533333 0.541176 0.521569
+    baseColorMap ImageTexture {
+      url [
+        "textures/steel_floor.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0.5
+    textureTransform TextureTransform {
+      scale 2 2
+    }
+  }
+  wallThickness 0.025
+  wallHeight 0.25
+  wallAppearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "textures/old_brick_wall.jpg"
+      ]
+    }
+    roughness 0.7
+    metalness 0
+    textureTransform TextureTransform {
+      scale 5 5
+    }
+  }
+}
+CardboardBox {
+  translation 0.403202 0.05 0.80233
+  name "cardboard box(5)"
+  size 0.1 0.1 0.1
+}
+CardboardBox {
+  translation 0.156937 0.05 0.556267
+  name "cardboard box(1)"
+  size 0.1 0.1 0.1
+}
+CardboardBox {
+  translation -0.0164537 0.05 -0.089978
+  rotation 0 -1 0 0
+  name "cardboard box(6)"
+  size 0.1 0.1 0.1
+}
+CardboardBox {
+  translation 0.734258 0.05 0.316589
+  rotation 0 1 0 0.0130897
+  name "cardboard box(7)"
+  size 0.1 0.1 0.1
+}
+CardboardBox {
+  translation 0.281122 0.05 0.766429
+  rotation 0 -1 0 0.0261799
+  name "cardboard box(2)"
+  size 0.1 0.1 0.1
+}
+CardboardBox {
+  translation 0.166502 0.05 0.680324
+  name "cardboard box(4)"
+  size 0.1 0.1 0.1
+}
+CardboardBox {
+  translation 0.460367 0.05 0.922906
+  name "cardboard box(3)"
+  size 0.1 0.1 0.1
+}
+PlasticCrate {
+  translation -0.517722 -1.33227e-15 0.319897
+  name "plastic crate(0)"
+  size 0.12 0.12 0.12
+}
+PlasticCrate {
+  translation -0.573285 4.72955e-14 0.176095
+  rotation 0 -1 0 0
+  name "plastic crate(1)"
+  size 0.12 0.12 0.12
+  color 0.929412 0.831373 0
+}
+PlasticCrate {
+  translation -0.124225 1.77636e-15 -0.547308
+  name "plastic crate(2)"
+  size 0.2 0.05 0.15
+  color 0.807843 0.360784 0
+}
+PlasticCrate {
+  translation -0.313778 7.81597e-14 -0.45695
+  rotation 0 -1 0 -1.5708
+  name "plastic crate(6)"
+  size 0.2 0.05 0.15
+  color 0.203922 0.396078 0.643137
+}
+PlasticCrate {
+  translation -0.522326 2.22045e-15 -0.489846
+  rotation 0 -1 0 0
+  name "plastic crate(11)"
+  size 0.2 0.05 0.15
+  color 0.203922 0.396078 0.643137
+}
+PlasticCrate {
+  translation 0.023959 7.68274e-14 -0.745446
+  rotation 0 1 0 -1.5707996938995747
+  name "plastic crate(8)"
+  size 0.2 0.05 0.15
+  color 0.807843 0.360784 0
+}
+PlasticCrate {
+  translation -0.169622 4.44089e-16 -0.897991
+  name "plastic crate(7)"
+  size 0.2 0.05 0.15
+  color 0.203922 0.396078 0.643137
+}
+PlasticCrate {
+  translation -0.927064 4.72955e-14 -0.164471
+  name "plastic crate(3)"
+  size 0.12 0.12 0.12
+  color 0.929412 0.831373 0
+}
+PlasticCrate {
+  translation -0.716409 4.72955e-14 0.0745866
+  name "plastic crate(9)"
+  size 0.12 0.12 0.12
+  color 0.929412 0.831373 0
+}
+PlasticCrate {
+  translation -0.543233 0 0.464346
+  name "plastic crate(4)"
+  size 0.12 0.12 0.12
+}
+PlasticCrate {
+  translation -0.788873 -1.77636e-15 -0.0744836
+  name "plastic crate(5)"
+  size 0.12 0.12 0.12
+}
+PlasticCrate {
+  translation -0.871345 7.83816e-14 0.849781
+  rotation 0 -1 0 1.5707996938995747
+  name "plastic crate(10)"
+  size 0.2 0.05 0.15
+  color 0.252918 0.496666 0.230121
+}
+WoodenBox {
+  translation 0.240783 0.075 -0.0809947
+  name "wooden box(0)"
+  size 0.15 0.15 0.15
+}
+WoodenBox {
+  translation 0.404016 0.075 0.0518631
+  name "wooden box(1)"
+  size 0.15 0.15 0.15
+}
+WoodenBox {
+  translation 0.570495 0.075 0.16442
+  name "wooden box(2)"
+  size 0.15 0.15 0.15
+}
+WoodenBox {
+  translation 0.272944 0.075 -0.255575
+  name "wooden box(3)"
+  size 0.15 0.15 0.15
+}
+WoodenBox {
+  translation 0.403731 0.075 -0.413189
+  rotation 0 -1 0 0
+  name "wooden box(4)"
+  size 0.15 0.15 0.15
+}
+WoodenPalletStack {
+  translation -0.206986 4.4409e-16 0.679359
+  rotation 0 -1 0 0
+  name "wooden pallet stack(0)"
+  palletNumber 9
+  palletSize 0.18 0.02 0.24
+  palletLathNumber 5
+  palletLathWidth 0.024
+  lateralMisalignment 0.005
+  longitudinalMisalignment 0.01
+}
+WoodenPalletStack {
+  translation 0.587563 -1.0636e-13 -0.623255
+  rotation 0 1 0 1.5707996938995747
+  name "wooden pallet stack(1)"
+  palletNumber 7
+  palletSize 0.18 0.02 0.24
+  palletLathNumber 5
+  palletLathWidth 0.024
+  lateralMisalignment 0.005
+  longitudinalMisalignment 0.01
+}
+WoodenPalletStack {
+  translation 0.856132 -1.37669e-13 0.708184
+  rotation 0 1 0 1.5707996938995747
+  name "wooden pallet stack(2)"
+  palletNumber 3
+  palletSize 0.18 0.02 0.24
+  palletLathNumber 5
+  palletLathWidth 0.024
+  lateralMisalignment 0.005
+  longitudinalMisalignment 0.01
+}
+OilBarrel {
+  translation -0.393024 0.06 -0.282731
+  rotation 0 -1 0 1.35481
+  name "oil barrel(0)"
+  height 0.12
+  radius 0.05
+}
+OilBarrel {
+  translation 0.604017 0.06 0.310723
+  rotation 0 1 0 0.255254
+  name "oil barrel(1)"
+  height 0.12
+  radius 0.05
+}
+OilBarrel {
+  translation -0.482411 0.06 -0.350452
+  name "oil barrel(2)"
+  height 0.12
+  radius 0.05
+}
+OilBarrel {
+  translation -0.468185 0.06 0.0555809
+  name "oil barrel(3)"
+  height 0.12
+  radius 0.05
+}
+OilBarrel {
+  translation 0.269525 0.06 -0.520652
+  rotation 0 -1 0 0.77558
+  name "oil barrel(4)"
+  height 0.12
+  radius 0.05
+}
+OilBarrel {
+  translation 0.730664 0.06 -0.475213
+  rotation 0 1 0 0.382882
+  name "oil barrel(6)"
+  height 0.12
+  radius 0.05
+}
+OilBarrel {
+  translation 0.732152 0.06 -0.159943
+  rotation 0 -1 0 0.350157
+  name "oil barrel(5)"
+  height 0.12
+  radius 0.05
+}
+OilBarrel {
+  translation 0.634631 0.06 -0.10365
+  name "oil barrel(7)"
+  height 0.12
+  radius 0.05
+}
