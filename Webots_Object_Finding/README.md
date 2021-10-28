@@ -1,6 +1,6 @@
 # Object Finding with Path Planning in Webots
 
-A tiny [E-Puck robot](https://www.gctronic.com/e-puck2.php) searches a map to locate and identify a certain object. This was part of a larger (incomplete) group project combining robotics, NLP and image recognition. At a high-level, the concept of the project was:
+A tiny [E-Puck robot](https://www.gctronic.com/e-puck2.php) searches a map to locate and identify certain objects. This was part of a larger (incomplete) group project combining robotics, NLP and image recognition. At a high-level, the concept of the project was:
 - Send an instruction (a text string) to the robot to find an object e.g. "Find the banana." 
 - The robot parses and processes the command.
 - The robot implements the path planning algorithms here to find the quickest way to get to each object (represented as a sign with a photorealistic image) on the map. This is the part of the project in this repo.
